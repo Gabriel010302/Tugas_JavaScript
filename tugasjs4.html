@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        input[type=text]{
+            width: 6cm;
+            padding: 5px;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+       button{
+        width: 1cm;
+        padding: 5px;
+       }
+    </style>
+</head>
+<body>
+    <center>
+    <form id="kalkulator">
+    <table style="width: 30% ; background-color:aquamarine; border: solid; text-align: left;">
+    <h1 style="width : 60%; text-align: center;">Kalkulator Sederhana</h1>
+
+    <tr>
+    <td> Angka 1 :
+    <input type="text" name="angka" placeholder="masukan angka pertama">
+    </td>
+
+    </tr>
+    <tr>
+    <td> Angka 2 : 
+    <input type="text" name="angka2" placeholder="masukan angka kedua"></td>
+    </tr>
+
+    <tr>
+    <td> Hasil :
+    <input type="text" name="hasil" disabled> <br>
+    </td>
+    </tr>
+
+    <tr>
+    <td>
+    <button type="button" name="btn_tambah" onclick="tambah()">+</button>
+    <button type="button" name="btn_kurang" onclick="kurang()">-</button>
+    <button type="button" name="btn_pembagian" onclick="pembagian()">:</button>
+    <button type="button" name="btn_perkalian" onclick="perkalian()">X</button>
+    <button type="button" name="btn_pemangkatan" onclick="pemangkatan()">^</button>
+    </td>
+    </tr>
+    </center>
+    </table>
+    </form>
+    <script src="kalkulator.js">
+
+    </script>
+</table>
+</body>
+</html>
