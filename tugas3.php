@@ -1,12 +1,12 @@
 <?php 
 $m1 = ['NIM'=>'01111021', 'nama'=>'Andi', 'nilai'=>80];
 $m2 = ['NIM'=>'01111022', 'nama'=>'Ani', 'nilai'=>70];
-$m3 = ['NIM'=>'01111023', 'nama'=>'Ari', 'nilai'=>50];
+$m3 = ['NIM'=>'01111023', 'nama'=>'Agus', 'nilai'=>50];
 $m4 = ['NIM'=>'01111024', 'nama'=>'Aji', 'nilai'=>40];
-$m5 = ['NIM'=>'01111025', 'nama'=>'Ali', 'nilai'=>90];
-$m6 = ['NIM'=>'01111026', 'nama'=>'Ai', 'nilai'=>75];
-$m7 = ['NIM'=>'01111027', 'nama'=>'Budi', 'nilai'=>30];
-$m8 = ['NIM'=>'01111028', 'nama'=>'Bani', 'nilai'=>85];
+$m5 = ['NIM'=>'01111025', 'nama'=>'Syifa', 'nilai'=>90];
+$m6 = ['NIM'=>'01111026', 'nama'=>'Merdiana', 'nilai'=>75];
+$m7 = ['NIM'=>'01111027', 'nama'=>'Gabriel', 'nilai'=>30];
+$m8 = ['NIM'=>'01111028', 'nama'=>'Annie', 'nilai'=>85];
 $mahasiswa = [$m1,$m2,$m3,$m4,$m5,$m6,$m7,$m8];
 $ar_judul = ['No','NIM','Nama','Nilai','Keterangan','Grade','Predikat'];
 
