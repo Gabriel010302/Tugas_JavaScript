@@ -62,7 +62,6 @@ class Pegawai{
         echo '<br>Gaji Pokok : Rp. '.number_format($this->setGajiPokok(),0,',','.');
         echo '<br>Tunjangan Jabatan :  Rp. '.number_format($this->setTunjab(),0,',','.');
         echo '<br>Tunjangan Keluarga :  Rp. '.number_format($this->setTunkel(),0,',','.');
-        echo '<br>Gaji Kotor : Rp. '.number_format($this->setGajiKotor(),0,',','.');
         echo '<br>Zakat Profesi : Rp. '.number_format($this->setZakatProfesi(),0,',','.');
         echo '<br>Gaji Bersih : Rp. '.number_format($this->setGajiBersih(),0,',','.');
         echo '<hr>';
