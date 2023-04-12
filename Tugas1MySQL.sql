@@ -6,6 +6,7 @@ MariaDB [dbtoko]> create table produk(
     ->  harga_beli double,
     -> harga_jual double,
     -> stok int,
+    -> min_stok int,
     -> jenis_produk_id int NOT NULL REFERENCES jenis_produk(id));
 
 // Membuat Table pesanan_items
