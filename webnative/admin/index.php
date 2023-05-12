@@ -1,11 +1,17 @@
 <?php
+session_start();
 //memanggil dan memproses file bagian atas
 include_once 'koneksi.php';
 include_once 'models/Produk.php';
 include_once 'models/jenis_Produk.php';
+include_once 'models/Member.php';
 include_once 'models/Pelanggan.php';
 include_once 'models/Pesanan.php';
 include_once 'models/Kartu.php';
+$sesi = $_SESSION['MEMBER'];
+if(isset($sesi)){
+
+
 include_once 'top.php';
 //memanggil dan memproses file bagian menu
 include_once 'menu.php';
@@ -33,4 +39,8 @@ include_once 'menu.php';
 <?php
 //memanggil file bagian bawah
 include_once 'bottom.php';
+
+} else {
+    echo '<script> alert("anda tidak boleh masuk");history.back();</script>';
+}
 ?>
